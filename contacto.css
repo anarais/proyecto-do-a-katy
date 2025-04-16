@@ -1,0 +1,69 @@
+.formulario-contacto {
+    background-color: rgb(214, 194, 164);
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+
+  .formulario-contacto label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .formulario-contacto input,
+  .formulario-contacto select,
+  .formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #000;
+    border-radius: 5px;
+  }
+
+  .formulario-contacto button {
+    padding: 10px 20px;
+    background-color: #C8E6C9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .formulario-contacto button:hover {
+    background-color: #A5D6A7;
+  }
+
+  .boton-reset {
+    background-color: #FFCCCB;
+  }
+
+  .boton-enviar {
+    background-color: #C8E6C9;
+    margin-right: 10px;
+  }
+
+  .boton-enviar:hover, .boton-reset:hover {
+    background-color: #A5D6A7;
+  }
+
+  .botones-si-no {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+    margin: 10px 0 20px 0;
+  }
+
+  .botones-si-no label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>doña katy</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+<body>
+<!-- botones  -->
+  <header>
+    <h1 class="parisienne-regular">Doña katy.</h1>
+  <div id="quienes-somos" class="quienes-somos">
+    <a href="#quienessomos" class="boton">Quiénes somos</a>
+
+    <div class="desplegable">
+      <div class="boton">Servicios</div>
+      <div class="submenu">
+        <a href="#medico">Atención Médica</a>
+        <a href="#nutricion">Nutrición y gastronomía</a>
+        <a href="#actividades">Actividades recreativas</a>
+        <a href="#otros">Otros servicios</a>
+      </div>
+    </div>
+
+  <button class="boton" onclick="mostrarGaleria()">galería de fotos</button>
+  
+  
+  
+    <a href="#contacto" class="boton">contacto</a>
+  
+  </header>
+
+  
+  <div class="zoom-scroll">
+    <img src="img/Captura de pantalla 2025-04-15 184833.png" alt="Imagen con efecto de zoom" id="zoomImg">
+  </div>
+  
+ 
+  
+  <div id="quienessomos" class="quienes-somos">
+    <h1 class="h2">quienes somos</h1>
+      <p class="p1">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae sequi quis dolorem ratione, quisquam alias maiores ab est, iusto doloremque distinctio libero dolor error quod reiciendis dolorum officia. Natus, asperiores.
+      Distinctio nam praesentium optio, porro laborum deserunt modi aliquam unde eius a ducimus rem rerum in maiores tempora repellat accusantium! Ab atque id odit exercitationem aliquam, incidunt voluptatem cumque! Nemo!
+      Tenetur eos quas quod accusamus iste consequuntur, fuga obcaecati possimus sequi error ipsam laudantium accusantium ipsa ea, maiores autem ducimus! Exercitationem recusandae necessitatibus voluptates dolorem. Dolor earum repudiandae enim mollitia.
+      </p>
+  </div>
+
+  <div id="servicios" class="atencion medica">
+    <div id="medico" class="medico"></div>  
+    <h2 class="h3">atencion medica y cuidados</h2>
+      <h3 class="p2">
+      <ul>
+        <li>Atención médica profesional 4 veces por semana y servicio de enfermería diario.</li>
+        <li>Asistencia personalizada</li>
+        <li>administración y seguimiento de medicación, controles e informes a familiares.</li>
+        <li>asistencia las 24 horas con cuidadoras diurnas y nocturnas</li>
+        <li>contacto directo con profesionales de la salud</li>
+      </ul>
+      </h3> 
+  </div>
+  
+  <div id="servicios1">
+    <h3 class="nutricion" id="nutricion">Nutrición y gastronomía</h3>
+    <div class="p3">
+      <ul>
+        <li>Menú semanal adaptado a las necesidades de cada residente.</li>
+        <li>Comidas caseras y variadas.</li>
+        <li>Control de peso y seguimiento nutricional.</li>
+        <li>Asesoramiento nutricional.</li>
+      </ul>
+    </div>
+  
+    <h4 class="actividades" id="actividades">actividades recreativas</h4>
+    <div class="p4">
+      <ul>
+        <li>Actividades recreativas y de entretenimiento.</li>
+        <li>Ejercicios físicos adaptados a cada residente.</li>
+        <li>Salidas al aire libre y paseos.</li>
+        <li>Actividades culturales y artísticas.</li>
+      </ul>
+    </div>
+  
+    <h5 class="otros" id="otros">otros servicios</h5>
+    <div class="p5">
+      <ul>
+        <li>Psiquiatría, Nuestro establecimiento cuenta con un profesional de la salud mental para aquellos residentes que sean diagnosticados y aconsejados por el médico continuar con un tratamiento terapeútico.</li>
+        <li>Kinesiología: tenemos a disposición un profesional capacitado para su asistencia.</li>
+        <li>Peluquería y podología: en nuestro hogar, tenemos a disposición profesionales de ambos rubros para quienes quieran un seguimiento mensual de éstas áreas.</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="contacto" class="contacto1">
+    <h2 class="contacto">contacto</h2>
+
+    
+    <form action="#" method="post" class="formulario-contacto">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+      
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono" required>
+      
+      <label for="comentarios">Comentarios:</label>
+      <textarea id="comentarios" name="comentarios" placeholder="Escribe tu mensaje..." required></textarea>
+      
+      <label for="servicio">Selecciona el servicio que te interesa:</label>
+      <select id="servicio" name="servicio">
+        <option value="medico">Atención Médica</option>
+        <option value="nutricion">Nutrición y Gastronomía</option>
+        <option value="actividades">Actividades Recreativas</option>
+      </select>
+      
+      <label>¿Deseas recibir más información?</label>
+    <div class="botones-si-no">
+      <label>
+        <input type="radio" name="informacion" value="si"> Sí
+      </label>
+      <label>
+        <input type="radio" name="informacion" value="no"> No
+      </label>
+    </div>
+    <button type="submit" class="boton-enviar">Enviar</button>
+    <button type="reset" class="boton-reset">Reset</button>
+      </div>
+    </form>
+  </div>
+
+<section id="galeria" class="galeria">
+  <h2 class="titulo-galeria">Galería de fotos</h2>
+  <div class="galeria-navegacion">
+    <button class="flecha" id="flecha-izquierda">←</button>
+
+    <div class="contenedor-galeria" id="contenedor-galeria">
+      <img src="img/foto1.jpg" alt="Foto 1">
+      <img src="img/foto2.jpg" alt="Foto 2">
+      <img src="img/foto3.jpg" alt="Foto 3">
+      <img src="img/foto4.jpg" alt="Foto 4">
+      <img src="img/foto5.jpg" alt="Foto 5">
+      <img src="img/foto6.jpg" alt="Foto 6">
+      <img src="img/foto7.jpg" alt="Foto 7">
+      <img src="img/foto8.jpg" alt="Foto 8">
+    </div>
+
+    <button class="flecha" id="flecha-derecha">→</button>
+  </div>
+  <!-- <br> -->
+<button onclick="volverInicio()" class="boton">Volver al inicio</button>
+</section>
+<button onclick="irArriba()" id="boton-arriba" title="Volver arriba">↑</button>
+
+  <!-- js -->
+  <script src="zoom.js"></script>
+</body>
+</html>
+

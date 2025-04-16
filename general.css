@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.h2, .p1, .h3, .p2, .h4, .p3, .nutricion, .actividades, .p4, .otros, .p5, .contacto{background-color: rgb(214, 194, 164);} 
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c9c8ad
+  }
+
