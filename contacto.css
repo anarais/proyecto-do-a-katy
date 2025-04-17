@@ -67,3 +67,29 @@
   }
   
   
+  .contenedor-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .formulario-contacto {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    margin-right: 700px;
+
+  }
+  
+  .mapa {
+    flex: 1;
+    min-width: 30px;
+    max-width: 700px;
+    height: 600px;
+    border: 0;
+    margin-left: 30px;
+  }
+  
