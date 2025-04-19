@@ -4,7 +4,11 @@ html {
 
 
 
-.h2, .p1, .h3, .p2, .h4, .p3, .nutricion, .actividades, .p4, .otros, .p5, .contacto{background-color: rgb(214, 194, 164);} 
+.h2, .p1, .h3, .p2, .h4, .p3, .nutricion, .actividades, .p4, .otros, .p5, .contacto{background-color: rgb(214, 194, 164);
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+} 
 
 body {
     margin: 0;
@@ -12,3 +16,9 @@ body {
     background-color: #c9c8ad
   }
 
+
+
+* {
+    box-sizing: border-box;
+  }
+  
