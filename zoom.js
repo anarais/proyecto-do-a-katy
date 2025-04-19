@@ -72,6 +72,7 @@ function mostrarGaleria() {
   document.getElementById('servicios').style.display = 'none';
   document.getElementById('servicios1').style.display = 'none';
   document.getElementById('contacto').style.display = 'none';
+  document.getElementById('footer').style.display = 'none';
   document.getElementById('galeria').style.display = 'block';
 
 
@@ -89,7 +90,8 @@ function volverInicio() {
   document.getElementById('quienessomos').style.display = 'block';
   document.getElementById('servicios').style.display = 'block';
   document.getElementById('servicios1').style.display = 'block';
-  document.getElementById('contacto').style.display = 'block';
+  document.getElementById('contacto').style.display = 'flex';
+  document.getElementById('footer').style.display = 'flex';
   document.getElementById('galeria').style.display = 'none';
 
   window.scrollTo(0, 0);
