@@ -7,7 +7,7 @@
   }
   
   .boton {
-    background-color: #C47458;
+    background-color: #c475586c;
     color: rgb(255, 255, 255);
     border: none;
     padding: 10px 5px;
@@ -33,11 +33,12 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #c8d68a;
+    background-color: #834e3a;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     z-index: 1;
     min-width: 160px;
     border-radius: 5px;
+
   }
   
   .submenu a {

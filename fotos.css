@@ -6,7 +6,7 @@
   
   .titulo-galeria {
     font-size: 30px;
-    color: #C47458;
+    color: #c475586c;
     margin-bottom: 20px;
   }
   
@@ -19,7 +19,7 @@
   
   .flecha {
     font-size: 30px;
-    background-color: #C47458;
+    background-color: #c475586c;
     color: white;
     border: none;
     border-radius: 50%;
@@ -48,7 +48,7 @@
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
-    border: 2px solid #C47458;
+    border: 2px solid #c475586c;
     transition: transform 0.3s;
   }
   

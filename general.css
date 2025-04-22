@@ -4,7 +4,7 @@ html {
 
 
 
-.texto-quienes-somos, .p5, .contacto, .quienes-somos1 {background-color: #C47458;
+.texto-quienes-somos, .p5, .contacto, .quienes-somos1 {background-color: #c475586c;
     border: 1px solid #000000;
     color: rgb(0, 0, 0);
     border-radius: 10px 10px 10px 10px;
@@ -55,7 +55,7 @@ body {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #C47458;
+    background-color: #c475586c;
     color: black;
     cursor: pointer;
     padding: 12px 16px;
@@ -66,7 +66,7 @@ body {
   }
   
   #boton-arriba:hover {
-    background-color: #C47458;
+    background-color: #c475586c;
   }
   
   footer {

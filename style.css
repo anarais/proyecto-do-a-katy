@@ -58,13 +58,14 @@ body {
 }
 
 .tarjeta-servicio {
-  background-color: #C47458; 
+  background-color: #c475586c; 
   color: white;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
   min-height: 470px;
 }
+
 
 .tarjeta-servicio h3 {
   font-size: 23px;
