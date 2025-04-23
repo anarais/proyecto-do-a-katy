@@ -1,0 +1,39 @@
+/* estilos para dispositivos moviles */
+@media (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .parisienne-regular {
+        font-size: 39px;
+    }
+    .texto-quienes-somos {
+        column-count: 1;
+        font-size: 17px;
+        width: 90%;
+    }
+    .servicios-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    .contenedor-contacto {
+        display: flex;
+        align-items: flex-start;
+         flex-direction: column-reverse;
+        }
+
+    .formulario-wrapper {
+           height: 600px;
+        }
+    .mapa {
+            width: 100%;
+            height: 400px;}
+        
+    #boton-arriba {
+        bottom: 70px;
+        right: 7px;
+    }
+
+}
